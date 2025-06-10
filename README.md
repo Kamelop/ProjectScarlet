@@ -68,6 +68,7 @@ A big thanks goes to the following for their invaluable contributions in no part
 - **[Cornshiba](https://github.com/cornshiba)** for introducing me to this
 - **[Muhammad Gudaji](https://github.com/muhammadgudaji)** for help with the Note 9
 - **[ExtremeXT](https://github.com/ExtremeXT)** for your support and making this possible
+- **[Ocin4ever](https://github.com/Ocin4ever/)** for the original fork - EternityROM
 
 Original EternityROM credits:
 - **[salvogiangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
