@@ -1,33 +1,24 @@
 <p align="center">
-  <a href="https://github.com/Ocin4ever/EternityROM/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/Ocin4ever/EternityROM?style=for-the-badge&logo=github"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/Ocin4ever/EternityROM/fifteen?style=for-the-badge"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/Ocin4ever/EternityROM?style=for-the-badge"/></a>
-  <a href="https://github.com/Ocin4ever/EternityROM/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/Ocin4ever/EternityROM?style=for-the-badge"/></a>
+  <a href="https://github.com/mrcxlinux/ProjectScarlet/blob/fifteen/LICENSE"><img loading="lazy" src="https://img.shields.io/github/license/mrcxlinux/ProjectScarlet?style=for-the-badge&logo=github"/></a>
+  <a href="https://github.com/mrcxlinux/ProjectScarlet/commits/fifteen"><img loading="lazy" src="https://img.shields.io/github/last-commit/mrcxlinux/ProjectScarlet/fifteen?style=for-the-badge"/></a>
+  <a href="https://github.com/mrcxlinux/ProjectScarlet/stargazers"><img loading="lazy" src="https://img.shields.io/github/stars/mrcxlinux/ProjectScarlet?style=for-the-badge"/></a>
+  <a href="https://github.com/mrcxlinux/ProjectScarlet/graphs/contributors"><img loading="lazy" src="https://img.shields.io/github/contributors/mrcxlinux/ProjectScarlet?style=for-the-badge"/></a>
 </p>
-<p align="center">EternityROM is a work-in-progress custom firmware for Samsung Galaxy Note10 series (Exynos).</p>
+<p align="center">Project Scarlet is a work-in-progress custom firmware for Samsung Galaxy S9/S9+/Note 9 series (Exynos 9810.</p>
 
-<p align="center">
-  <a href="https://t.me/unicarom">💬 Telegram</a>
-  •
-  <a href="https://xdaforums.com/t/port-rom-14-eternityrom-v4-0-oneui-6-1-1-for-n10-s10-series.4670331/">🚀 XDA</a>
-</p>
-
-# What is EternityROM?
-EternityROM is a work-in-progress custom firmware for Samsung Galaxy devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional features and tweaks to ensure the best possible experience out of the box.
+# What is Project Scarlet?
+Project Scarlet is a work-in-progress custom firmware for Samsung Galaxy S9/S9+/Note 9 devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional tweaks to ensure the best possible experience out of the box.
 It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip/tar package for the specified target device.
 
 Any form of contribution, suggestions, bug report or feature request for the project will be welcome.
 
 # Supported Devices
-- Note 10:
-  - d1 - N970F
-- Note 10 5G:
-  - d1xks - N971N
-- Note10+:
-  - d2s - N975F
-- Note10+ 5G:
-  - d2x - N976B
-  - d2xks - N976N
+- Note 9:
+  - crownlte - N960F
+- S9+:
+  - star2lte - G965F
+- S9:
+  - starlte - G960F
 
 # Features
 - Based on the latest stable OneUI 7 Galaxy S24+ firmware
@@ -36,7 +27,6 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 - Partially DeKnoxed
 - Full SELinux Support
 - Full Galaxy AI support
-- Completely upstreamed kernels 4.14
 - High end animations
 - Native/live blur support
 - Adaptive color tone support
@@ -74,6 +64,12 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 
 # Credits
 A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
+
+- **[Cornshiba](https://github.com/cornshiba)** for introducing me to this
+- **[Muhammad Gudaji](https://github.com/muhammadgudaji)** for help with the Note 9
+- **[ExtremeXT](https://github.com/ExtremeXT)** for your support and making this possible
+
+Original EternityROM credits:
 - **[salvogiangri](https://github.com/salvogiangri)** for the UN1CA build system, OneUI patches, and general help and support while developing
 - **[ExtremeXT](https://github.com/ExtremeXT)** for your support since the beginning and helping me with so many things. Special thanks to you!
 
