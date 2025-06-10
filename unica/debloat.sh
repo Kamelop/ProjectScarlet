@@ -113,7 +113,6 @@ system/priv-app/OneDrive_Samsung_v3
 system/priv-app/PaymentFramework
 system/priv-app/SamsungBilling
 system/priv-app/SamsungCarKeyFw
-system/priv-app/SamsungMessages
 system/priv-app/SamsungPass
 system/priv-app/SOAgent75
 system/priv-app/SPPPushClient
