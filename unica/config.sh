@@ -16,7 +16,7 @@
 #
 
 # UN1CA configuration file
-ROM_VERSION="v5.0"
+ROM_VERSION="QuinceTart"
 ROM_VERSION+="-$(git rev-parse --short HEAD)"
 DEBUG=0
 
