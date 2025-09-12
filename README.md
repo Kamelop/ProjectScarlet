@@ -68,6 +68,7 @@ This project is licensed under the terms of the [GNU General Public License v3.0
 A big thanks goes to the following for their invaluable contributions in no particular order (MORE INFO AND PEOPLE: TO BE WRITTEN)
 
 - **[Cornshiba](https://github.com/cornshiba)** for introducing me to this
+- **[mrcxlinux](https://github.com/mrcxlinux)** for the original scarlet repo
 - **[Muhammad Gudaji](https://github.com/muhammadgudaji)** for help with the Note 9
 - **[ExtremeXT](https://github.com/ExtremeXT)** for your support and making this possible
 - **[Ocin4ever](https://github.com/Ocin4ever/)** for the original fork - EternityROM
