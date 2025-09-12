@@ -75,11 +75,11 @@ jobs:
           node-version: 'latest'
 
       - name: Build dependencies
-        run: source ./buildenv.sh d2s
+        run: source ./buildenv.sh crownlte
 
       - name: Update prebuilt blobs
         run: |
-          source ./buildenv.sh d2s
+          source ./buildenv.sh crownlte
           ./scripts/internal/update_prebuilt_blobs.sh ${{ matrix.path }}
           echo "PDA_BUILD=$(cat ./${{ matrix.path }}/.current | cut -d "/" -f 1)" >> $GITHUB_ENV
 
