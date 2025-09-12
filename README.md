@@ -6,6 +6,10 @@
 </p>
 <p align="center">Project Scarlet is a work-in-progress custom firmware for Samsung Galaxy S9/S9+/Note 9 series (Exynos 9810.</p>
 
+# Somm
+This Project hasn't been tested yet If booted or na, imma send screenshots if it did
+
+
 # What is Project Scarlet?
 Project Scarlet is a work-in-progress custom firmware for Samsung Galaxy S9/S9+/Note 9 devices. It's based on the latest and greatest iteration of Samsung's UX and it also includes additional tweaks to ensure the best possible experience out of the box.
 It is based on the UN1CA build system which allows automatic downloading/extraction of the firmware, applying the required patches and generating a flashable zip/tar package for the specified target device.
