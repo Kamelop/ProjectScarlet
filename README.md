@@ -15,10 +15,12 @@ Any form of contribution, suggestions, bug report or feature request for the pro
 # Supported Devices
 - Note 9:
   - crownlte - N960F
-- S9+:
-  - star2lte - G965F
 - S9:
   - starlte - G960F
+    
+# Soon 
+- S9+:
+  - star2lte - G965F
 
 # Features
 - Based on the latest stable OneUI 7 Galaxy S24+ firmware
