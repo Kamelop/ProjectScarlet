@@ -1,0 +1,37 @@
+name: Build dependencies
+
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v5
+        with:
+          submodules: recursive
+
+      - name: Update and upgrade packages
+        run: |
+          sudo apt update
+          sudo apt upgrade -y
+
+      - name: Install required packages
+        run: |
+          sudo apt install -y attr ccache clang git golang libbrotli-dev libgtest-dev liblz4-dev libpcre2-dev libprotobuf-dev libunwind-dev libusb-1.0-0-dev libzstd-dev lld openjdk-11-jdk protobuf-compiler zip zipalign make cmake npm lz4 brotli patchelf curl xxd bison flex
+
+      - name: Configure Git
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Run build command
+        run: . ./buildenv.sh crownlte
+
+      - name: Archive tools directory
+        uses: actions/upload-artifact@v4
+        with:
+          name: tools
+          path: out/tools
